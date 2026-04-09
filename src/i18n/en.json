@@ -1,0 +1,630 @@
+{
+  "diary": {
+    "title": "Diary",
+    "date": {
+      "today": "Today",
+      "yesterday": "Yesterday"
+    },
+    "loading": "Syncing diary...",
+    "alerts": {
+      "error_title": "Failed",
+      "water_error": "Could not save water intake."
+    },
+    "meal_access": {
+      "lunch_locked": "Unlocks at 11:00",
+      "dinner_locked": "Unlocks at 17:00"
+    },
+    "summary": {
+      "calories_remaining": "Calories Remaining",
+      "goal": "Goal",
+      "food": "Food",
+      "exercise": "Exercise",
+      "unit_kcal": "kcal"
+    },
+    "meals": {
+      "empty_food": "No food logged yet.",
+      "add_food": "Add Food"
+    },
+    "exercise": {
+      "title": "Exercise",
+      "empty_exercise": "No exercise logged yet.",
+      "add_exercise": "Add Exercise"
+    },
+    "water": {
+      "title": "Water Tracker",
+      "subtitle": "Stay hydrated today!",
+      "add_amount": "250ml",
+      "unit_ml": "ml"
+    },
+    "meal_titles": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner",
+      "snack": "Snack"
+    },
+    "calendar": {
+      "close": "Close"
+    }
+  },
+  "home": {
+    "remaining": "Remaining",
+    "challenge": {
+      "new_event": "NEW EVENT",
+      "title": "Explore Challenges!",
+      "subtitle": "Earn thousands of XP and badges."
+    },
+    "greeting": {
+      "morning": "Good morning,",
+      "noon": "Good afternoon,",
+      "afternoon": "Good afternoon,",
+      "evening": "Good evening,"
+    },
+    "calories_summary": "Calories Summary",
+    "labels": {
+      "goal": "Goal",
+      "food": "Food",
+      "carbs": "Carbs",
+      "protein": "Protein",
+      "fat": "Fat",
+      "burned": "Burned",
+      "weight": "Weight",
+      "steps": "steps",
+      "water_tracker": "Water Tracker",
+      "for_your_goal": "For Your Goal",
+      "today_diary": "Today's Diary",
+      "see_all": "See All",
+      "ai_scan": "AI Scan",
+      "no_food_added": "No food added"
+    },
+    "units": {
+      "kcal": "kcal",
+      "kg": "kg",
+      "glasses": "glasses"
+    },
+    "water_tracker": {
+      "water_amount": "{{current}} of {{goal}} glasses",
+      "reminder": "Reminder"
+    },
+    "widget": {
+      "steps_text": "{{count}} steps",
+      "weight_goal": "Goal: {{goal}} kg"
+    },
+    "morning_card": {
+      "greeting_morning": "Good morning, {{name}}",
+      "greeting_noon": "Good afternoon, {{name}}",
+      "greeting_afternoon": "Good afternoon, {{name}}",
+      "greeting_evening": "Good evening, {{name}}",
+      "subtitle_morning": "What is your weight this morning?",
+      "subtitle_noon": "What is your weight now?",
+      "subtitle_afternoon": "What is your weight this afternoon?",
+      "subtitle_evening": "What is your weight this evening?",
+      "cta": "Log now"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "journey": "Journey"
+    },
+    "filters": {
+      "all": "All",
+      "workout": "Workout",
+      "weight": "Weight",
+      "badge": "Achievement"
+    },
+    "weight_checkin": {
+      "title": "Weight check-in",
+      "subtitle": "Tap today to update"
+    },
+    "quick_actions": {
+      "ai_scan_sub": "Recognize food",
+      "nutrition_title": "Nutrition",
+      "nutrition_sub": "Detailed analysis"
+    },
+    "schedule_banner": {
+      "create_title": "Create AI Workout Plan",
+      "create_sub": "Get your personalized program",
+      "create_btn": "START",
+      "pending_title": "Workout Time! 🔥",
+      "pending_sub": "{{count}} workouts waiting",
+      "pending_btn": "START NOW",
+      "done_title": "Excellent Work! 🎉",
+      "done_sub": "Today's plan is completed",
+      "done_btn": "VIEW SCHEDULE",
+      "rest_title": "Rest Day ☕",
+      "rest_sub": "Let your muscles recover",
+      "rest_btn": "VIEW SCHEDULE"
+    },
+    "journey": {
+      "goal_title": "Your Goal",
+      "progress_prefix": "You've completed",
+      "start_label": "Start",
+      "goal_label": "Goal",
+      "milestones_title": "Journey Milestones",
+      "empty_activities": "No matching activities found.",
+      "quote": "A journey of a thousand miles begins with a single step"
+    },
+    "weight_modal": {
+      "title": "Enter Weight",
+      "subtitle": "Update it so the charts stay accurate!",
+      "invalid_weight": "Please enter a valid weight.",
+      "saved_success": "Weight has been saved!",
+      "save_failed": "Unable to save weight.",
+      "later": "Later",
+      "save_now": "Save now"
+    },
+    "dialog": {
+      "error_title": "Error",
+      "success_title": "Great",
+      "ok_understood": "Got it"
+    }
+  },
+  "stats": {
+    "header": {
+      "statistics": "Statistics",
+      "live": "Live"
+    },
+    "period": {
+      "week": "Week",
+      "month": "Month"
+    },
+    "comparison": {
+      "title_weekly": "Weekly Comparison",
+      "title_monthly": "Monthly Comparison",
+      "subtitle": "Compared to the previous period",
+      "vs_last": "vs. Last {{period}}",
+      "metric": "Metric",
+      "this_period": "This {{period}}",
+      "prev_period": "Prev {{period}}",
+      "change": "Change"
+    },
+    "forecast": {
+      "title": "Weight Forecast",
+      "subtitle_next_days": "Weight forecast for the next {{days}} days",
+      "insight_reaches": "Forecast to reach {{weight}} kg on {{date}}"
+    },
+    "legend": {
+      "actual": "Actual",
+      "ai_forecast": "AI Forecast",
+      "target": "Target"
+    },
+    "calories": {
+      "title": "Calories Intake",
+      "subtitle": "Energy intake in the last {{days}} days",
+      "avg_per_day": "Average/day"
+    },
+    "activity_vs_intake": {
+      "title": "Activity vs. Intake",
+      "subtitle": "Balance between eating and exercising",
+      "intake_100": "Intake (100%)",
+      "burned_ratio": "Burned ({{ratio}}%)"
+    },
+    "nutrition": {
+      "title": "Nutrition Breakdown",
+      "subtitle": "Ratio of macronutrients"
+    },
+    "macros": {
+      "carbs": "Carbs",
+      "protein": "Protein",
+      "fat": "Fats"
+    },
+    "meal_timing": {
+      "title": "Meal Timing",
+      "subtitle": "Energy allocation by meal",
+      "kcal_per_day": "kcal/day"
+    }
+  }
+  ,
+  "exerciseDetail": {
+    "exercise_default_name": "Exercise",
+    "start_workout": "START WORKOUT",
+    "badge": {
+      "strength_training": "STRENGTH TRAINING"
+    },
+    "stats": {
+      "volume_label": "VOLUME",
+      "sets_footer": "Sets",
+      "energy_label": "ENERGY",
+      "duration_label": "DURATION",
+      "global_rank": "GLOBAL RANK"
+    },
+    "units": {
+      "kcal": "kcal",
+      "minutes": "Minutes",
+      "reps": "Reps"
+    },
+    "sections": {
+      "master_the_form": "Master the Form",
+      "primary_muscle_targets": "PRIMARY MUSCLE TARGETS",
+      "step_by_step": "Step-by-Step Guide"
+    },
+    "steps": {
+      "step_heading": "Step {{step}}"
+    },
+    "leaderboard": {
+      "title": "Leaderboard",
+      "global_rank": "GLOBAL RANK",
+      "you_today": "You (Today)",
+      "current_global_sub": "#{{rank}} Worldwide",
+      "points": "Points",
+      "user_placeholder": "User {{index}}",
+      "rank_sub": "Rank {{rank}}",
+      "view_all": "See full leaderboard"
+    },
+    "pro_tip": {
+      "title": "Pro Tip",
+      "default_desc": "Focus on breathing evenly and tightening your muscles throughout the exercise to achieve the best results."
+    },
+    "footer": {
+      "start_button": "Start Workout",
+      "start_button_sub": "AI Pose Tracking • Ready"
+    },
+    "modal": {
+      "ready_title": "Ready to train!",
+      "sets_label": "Sets",
+      "sets_hint_max": "Max 10",
+      "reps_per_set_label": "Reps / Set",
+      "reps_hint_max": "Max 50",
+      "total_volume_label": "Total volume"
+    },
+    "errors": {
+      "title": "Error",
+      "invalid_video": "Invalid video."
+    }
+  },
+  "schedule": {
+    "ai": "AI",
+    "generate_button": "CREATE AI WORKOUT SCHEDULE",
+    "units": {
+      "sets": "Sets",
+      "reps": "Reps",
+      "kcal": "kcal"
+    },
+    "goals": {
+      "lose_weight": {
+        "label": "Lose Fat",
+        "desc": "Burn maximum calories"
+      },
+      "gain_weight": {
+        "label": "Build Muscle",
+        "desc": "Build strength"
+      },
+      "maintain_weight": {
+        "label": "Maintain",
+        "desc": "Stay fit & healthy"
+      }
+    },
+    "days": {
+      "1": "Mon",
+      "2": "Tue",
+      "3": "Wed",
+      "4": "Thu",
+      "5": "Fri",
+      "6": "Sat",
+      "7": "Sun"
+    },
+    "times": {
+      "15": {
+        "label": "15 Minutes",
+        "sub": "Very busy"
+      },
+      "30": {
+        "label": "30 Minutes",
+        "sub": "Moderate"
+      },
+      "45": {
+        "label": "45 Minutes",
+        "sub": "Free time"
+      }
+    },
+    "survey": {
+      "header": {
+        "title": "AI Personal Trainer",
+        "subtitle": "Set up this week's plan"
+      },
+      "question": {
+        "goal_weekly": "What is your weekly goal?",
+        "available_days": "Which days are you free?",
+        "time_budget": "Time budget per session?"
+      },
+      "days_selected": "{{count}} days selected"
+    },
+    "plan_header": {
+      "title": "Weekly Plan",
+      "subtitle": "{{count}} training days"
+    },
+    "loading": "Loading your workout schedule...",
+    "calendar": {
+      "today": "Today"
+    },
+    "list": {
+      "today_workout": "Workout today",
+      "workout_on": "Workout on {{date}}",
+      "past_warning": "* Past workout schedule",
+      "completed_suffix": " completed",
+      "empty_title": "No workouts yet",
+      "empty_sub": "Tap + to add a new workout"
+    },
+    "modal": {
+      "title_edit": "Customize workout",
+      "title_add": "Add new workout",
+      "exercise_picker_label": "Choose an exercise to add:",
+      "loading_exercises": "Loading...",
+      "date_label": "Workout date",
+      "time_label": "Scheduled time",
+      "sets_stepper_label": "Number of Sets",
+      "reps_stepper_label": "Number of Reps",
+      "save_edit": "Save & Reminder 🔔",
+      "save_add": "Add to schedule ✓"
+    },
+    "alerts": {
+      "title_warning": "Notice",
+      "select_at_least_one_day": "Please select at least 1 free day!",
+      "title_success": "Success",
+      "plan_generated_success": "AI has finished designing your workout schedule!",
+      "title_error": "Error",
+      "plan_generated_failed": "Cannot generate the workout schedule right now.",
+      "select_exercise_message": "Please choose an exercise.",
+      "save_failed_message": "Could not save changes."
+    }
+  },
+  "nutritionScreen": {
+    "header": {
+      "title": "Nutrition"
+    },
+    "report": {
+      "title": "What did you eat today?",
+      "goal_badge": "Goal: {{kcal}} kcal",
+      "kcal_unit": "consumed"
+    },
+    "macros": {
+      "protein": "Protein",
+      "carbs": "Carbs",
+      "fat": "Fat"
+    },
+    "meals": {
+      "title": "AI suggested meal plan",
+      "subtitle": "Optimized for your goal",
+      "count_meals": "{{count}} meals"
+    },
+    "meal_types": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner"
+    },
+    "meal_actions": {
+      "swap": "Swap meal",
+      "logged": "Marked as completed",
+      "log": "Confirm this meal"
+    },
+    "loading": {
+      "overlay_action": "Processing..."
+    },
+    "alerts": {
+      "info_title": "Notice",
+      "error_title": "Error",
+      "update_now": "Update now",
+      "later": "Later",
+      "fetch_failed": "Unable to connect to the server to fetch the meal plan.",
+      "meal_already_logged": "This meal has already been logged and cannot be swapped.",
+      "swap_failed": "No suitable replacement meal found at the moment.",
+      "log_failed": "Could not save your meal log. Please try again."
+    }
+  },
+  "leaderboardScreen": {
+    "exercise_default_name": "BASIC SQUAT",
+    "loading": "Syncing data...",
+    "header": {
+      "subtitle": "LEADERBOARD"
+    },
+    "empty": {
+      "list": "No one has joined this leaderboard yet."
+    },
+    "units": {
+      "pts": "pts",
+      "reps": "reps",
+      "kcal": "kcal"
+    },
+    "profile": {
+      "default_name": "You",
+      "loading": "Loading profile information...",
+      "level_prefix": "Lv.",
+      "xp": "XP",
+      "badges_title": "Badges ({{count}})",
+      "badges_empty": "No badges collected.",
+      "awards_title": "Challenge Cups ({{count}})",
+      "completed_prefix": "Completed:",
+      "awards_empty": "No challenges completed."
+    },
+    "footer": {
+      "rank_label": "RANK",
+      "rank_na": "N/A",
+      "message": "Keep training to climb the ranks!",
+      "pts": "PTS"
+    }
+  },
+  "coachScreen": {
+    "header": {
+      "title": "Healix AI Coach",
+      "online_status": "Always ready to help"
+    },
+    "typing": "Coach is typing...",
+    "input": {
+      "placeholder": "Ask the coach about workouts, calories..."
+    },
+    "suggestions": {
+      "workout_today": "🏋️‍♂️ What should I train today?",
+      "low_calo_dinner": "🥗 Suggest a low-calorie dinner",
+      "water_intake": "💧 How much water should I drink?",
+      "muscle_analysis": "🔥 Analyze my muscle composition",
+      "soreness": "😴 I'm experiencing muscle soreness"
+    },
+    "welcome": {
+      "text": "Hi there! 👋 I'm **Healix Coach** - your personal health assistant.\\n\\nI've finished analyzing your body data. What would you like me to help with today: your workout schedule, nutrition, or answering any questions?"
+    },
+    "errors": {
+      "connection_interrupted": "Sorry, the Coach signal connection is interrupted. Please say it again 😅"
+    }
+  },
+  "challenges": {
+    "header": {
+      "title": "EVENTS & CHALLENGES"
+    },
+    "tabs": {
+      "joined": "JOINED",
+      "new_events": "NEW EVENTS",
+      "history": "HISTORY"
+    },
+    "loading": "Loading data...",
+    "empty": {
+      "joined": "You haven't joined any challenges yet.",
+      "new_events": "No new events available right now.",
+      "history": "No event history yet."
+    },
+    "cards": {
+      "days_left": "{{count}} days left",
+      "claim_now": "CLAIM REWARD NOW",
+      "reward_label": "Reward:",
+      "participants": "{{count}} joined",
+      "join": "JOIN"
+    },
+    "history": {
+      "success": "SUCCESS",
+      "expired": "EXPIRED"
+    },
+    "units": {
+      "xp": "XP",
+      "reps": "Reps",
+      "seconds": "Seconds",
+      "kcal": "Kcal"
+    },
+    "alerts": {
+      "connection_error_title": "Connection Error",
+      "load_failed": "Unable to load challenge list. Please try again later.",
+      "success_title": "Success!",
+      "failed_title": "Failed",
+      "error_title": "Error",
+      "join_failed": "An error occurred while joining.",
+      "claim_failed": "Unable to claim reward right now."
+    },
+    "dialog": {
+      "close": "Close"
+    }
+  },
+  "personalData": {
+    "alerts": {
+      "login_title": "Error",
+      "login_message": "Please sign in again.",
+      "load_error_title": "Error",
+      "load_error_message": "Could not load your profile. Please try again.",
+      "missing_name_title": "Missing information",
+      "missing_name": "Please enter your full name.",
+      "missing_email_title": "Missing information",
+      "missing_email": "Please enter your email.",
+      "success_title": "Success",
+      "success_message": "Profile saved.",
+      "save_error_title": "Error",
+      "save_error_fallback": "Could not save profile. Please try again."
+    },
+    "header_title": "Personal profile",
+    "save": "Save",
+    "loading": "Loading profile...",
+    "info_title": "Protected data",
+    "info_text": "This information helps Healix calculate your BMI and daily calorie needs as accurately as possible.",
+    "labels": {
+      "full_name": "Full name",
+      "email": "Email address",
+      "dob": "Date of birth",
+      "gender": "Gender"
+    },
+    "dob_placeholder": "Select date of birth",
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "dialog_ok": "Got it",
+    "date_modal": {
+      "title": "Select date of birth",
+      "hint": "Choose a date below, then tap Confirm",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    }
+  },
+  "profileScreen": {
+    "loading": "Loading profile...",
+    "sticky_title_fallback": "Personal profile",
+    "user_fallback": "User",
+    "email_fallback": "Email not set",
+    "bmi": {
+      "label": "BMI",
+      "na": "N/A",
+      "underweight": "Underweight",
+      "normal": "Normal",
+      "overweight": "Overweight",
+      "obese": "Obese"
+    },
+    "stats": {
+      "height": "Height",
+      "weight": "Weight",
+      "current": "Current",
+      "unit_cm": "cm",
+      "unit_kg": "kg"
+    },
+    "sections": {
+      "account": "Account settings",
+      "preferences": "Preferences"
+    },
+    "menu": {
+      "badges": "My badges",
+      "personal_data": "Personal data",
+      "my_goal": "My goal",
+      "health_metrics": "Health metrics",
+      "notifications": "Notifications",
+      "privacy": "Privacy policy",
+      "help": "Help center",
+      "sign_out": "Sign out"
+    },
+    "goals": {
+      "lose_weight": "Weight loss",
+      "gain_weight": "Gain weight",
+      "stay_healthy": "Maintain weight",
+      "maintain_weight": "Maintain weight",
+      "build_muscle": "Build muscle",
+      "not_set": "Not set"
+    },
+    "alerts": {
+      "load_error_title": "Error",
+      "load_error_message": "Could not load personal data.",
+      "avatar_success_title": "Success",
+      "avatar_success_message": "Profile photo updated.",
+      "avatar_upload_error_fallback": "Could not upload image. Please try again.",
+      "avatar_picker_title": "Profile photo",
+      "avatar_picker_message": "Choose a photo from your library to update.",
+      "cancel": "Cancel",
+      "choose_photo": "Choose photo",
+      "logout_title": "Sign out",
+      "logout_message": "Are you sure you want to sign out?",
+      "logout_confirm": "Sign out"
+    },
+    "version": "Healix Version 1.0.0 (Beta)"
+  },
+  "editGoal": {
+    "header_title": "Change goal",
+    "title": "What is your main goal?",
+    "subtitle": "This will update your daily calorie and macronutrient targets.",
+    "save": "Save changes",
+    "goals": {
+      "lose": {
+        "title": "Lose weight",
+        "desc": "Burn fat and get lean through a calorie deficit"
+      },
+      "maintain": {
+        "title": "Maintain weight",
+        "desc": "Stay healthy and fit with balanced nutrition"
+      },
+      "gain_muscle": {
+        "title": "Gain muscle",
+        "desc": "Build strength and mass with high protein"
+      }
+    }
+  }
+}

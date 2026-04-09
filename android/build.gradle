@@ -5,7 +5,7 @@ buildscript {
         compileSdkVersion = 34
         targetSdkVersion = 34
         ndkVersion = "25.1.8937393"
-        kotlinVersion = "1.8.0"
+        kotlinVersion = "1.9.24"
     }
     repositories {
         google()
@@ -19,3 +19,22 @@ buildscript {
 }
 
 apply plugin: "com.facebook.react.rootproject"
+
+// Dán vào cuối file hoặc dưới dòng apply plugin: "com.facebook.react.rootproject"
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+
+    }
+
+     configurations.all {
+        resolutionStrategy {
+            force "androidx.core:core:1.13.1"
+            force "androidx.core:core-ktx:1.13.1"
+
+            force "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3"
+            force "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
+        }
+    }
+}

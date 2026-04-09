@@ -1,0 +1,630 @@
+{
+  "diary": {
+    "title": "Nhật ký",
+    "date": {
+      "today": "Hôm nay",
+      "yesterday": "Hôm qua"
+    },
+    "loading": "Đang đồng bộ nhật ký...",
+    "alerts": {
+      "error_title": "Thất bại",
+      "water_error": "Không thể lưu lượng nước uống."
+    },
+    "meal_access": {
+      "lunch_locked": "Mở lúc 11:00",
+      "dinner_locked": "Mở lúc 17:00"
+    },
+    "summary": {
+      "calories_remaining": "Calo Còn Lại",
+      "goal": "Mục tiêu",
+      "food": "Ăn uống",
+      "exercise": "Tập luyện",
+      "unit_kcal": "kcal"
+    },
+    "meals": {
+      "empty_food": "Chưa có món ăn nào được ghi nhận.",
+      "add_food": "Thêm món ăn"
+    },
+    "exercise": {
+      "title": "Tập luyện",
+      "empty_exercise": "Chưa có bài tập nào được ghi nhận.",
+      "add_exercise": "Thêm bài tập"
+    },
+    "water": {
+      "title": "Theo dõi nước",
+      "subtitle": "Giữ cơ thể luôn đủ nước nhé!",
+      "add_amount": "250ml",
+      "unit_ml": "ml"
+    },
+    "meal_titles": {
+      "breakfast": "Bữa sáng",
+      "lunch": "Bữa trưa",
+      "dinner": "Bữa tối",
+      "snack": "Bữa phụ"
+    },
+    "calendar": {
+      "close": "Đóng"
+    }
+  },
+  "home": {
+    "remaining": "Còn lại",
+    "challenge": {
+      "new_event": "SỰ KIỆN MỚI",
+      "title": "Khám phá Thử Thách!",
+      "subtitle": "Kiếm hàng ngàn XP và huy hiệu."
+    },
+    "greeting": {
+      "morning": "Chào buổi sáng,",
+      "noon": "Chào buổi trưa,",
+      "afternoon": "Chào buổi chiều,",
+      "evening": "Chào buổi tối,"
+    },
+    "calories_summary": "Tổng quan Calories",
+    "labels": {
+      "goal": "Mục tiêu",
+      "food": "Ăn uống",
+      "carbs": "Carbs",
+      "protein": "Protein",
+      "fat": "Fat",
+      "burned": "Đã đốt cháy",
+      "weight": "Cân nặng",
+      "steps": "bước",
+      "water_tracker": "Theo dõi nước",
+      "for_your_goal": "Vì mục tiêu của bạn",
+      "today_diary": "Nhật ký hôm nay",
+      "see_all": "Xem tất cả",
+      "ai_scan": "AI Scan",
+      "no_food_added": "Chưa có món ăn"
+    },
+    "units": {
+      "kcal": "kcal",
+      "kg": "kg",
+      "glasses": "ly"
+    },
+    "water_tracker": {
+      "water_amount": "{{current}} / {{goal}} ly",
+      "reminder": "Nhắc nhở"
+    },
+    "widget": {
+      "steps_text": "{{count}} bước",
+      "weight_goal": "Mục tiêu: {{goal}} kg"
+    },
+    "morning_card": {
+      "greeting_morning": "Chào buổi sáng, {{name}}",
+      "greeting_noon": "Chào buổi trưa, {{name}}",
+      "greeting_afternoon": "Chào buổi chiều, {{name}}",
+      "greeting_evening": "Chào buổi tối, {{name}}",
+      "subtitle_morning": "Cân nặng sáng nay là bao nhiêu?",
+      "subtitle_noon": "Cân nặng buổi trưa là bao nhiêu?",
+      "subtitle_afternoon": "Cân nặng buổi chiều là bao nhiêu?",
+      "subtitle_evening": "Cân nặng buổi tối là bao nhiêu?",
+      "cta": "Nhập ngay"
+    },
+    "tabs": {
+      "overview": "Tổng quan",
+      "journey": "Hành trình"
+    },
+    "filters": {
+      "all": "Tất cả",
+      "workout": "Luyện tập",
+      "weight": "Cân nặng",
+      "badge": "Thành tựu"
+    },
+    "weight_checkin": {
+      "title": "Điểm danh cân nặng",
+      "subtitle": "Chạm vào hôm nay để cập nhật"
+    },
+    "quick_actions": {
+      "ai_scan_sub": "Nhận diện món ăn",
+      "nutrition_title": "Dinh dưỡng",
+      "nutrition_sub": "Phân tích chi tiết"
+    },
+    "schedule_banner": {
+      "create_title": "Lên Lịch Tập AI",
+      "create_sub": "Nhận giáo án cá nhân hóa",
+      "create_btn": "BẮT ĐẦU",
+      "pending_title": "Đến Giờ Tập Rồi! 🔥",
+      "pending_sub": "{{count}} bài tập đang chờ",
+      "pending_btn": "TẬP NGAY",
+      "done_title": "Hoàn Thành Xuất Sắc! 🎉",
+      "done_sub": "Đã hoàn tất giáo án hôm nay",
+      "done_btn": "XEM LỊCH",
+      "rest_title": "Ngày Nghỉ Ngơi ☕",
+      "rest_sub": "Hãy để cơ bắp phục hồi",
+      "rest_btn": "XEM LỊCH"
+    },
+    "journey": {
+      "goal_title": "Mục tiêu của bạn",
+      "progress_prefix": "Bạn đã đi được",
+      "start_label": "Bắt đầu",
+      "goal_label": "Mục tiêu",
+      "milestones_title": "Dấu ấn Hành trình",
+      "empty_activities": "Không tìm thấy hoạt động phù hợp.",
+      "quote": "Hành trình vạn dặm bắt đầu từ một bước chân"
+    },
+    "weight_modal": {
+      "title": "Nhập Cân Nặng",
+      "subtitle": "Cập nhật để biểu đồ chính xác nhé!",
+      "invalid_weight": "Nhập cân nặng hợp lệ.",
+      "saved_success": "Cân nặng đã được lưu!",
+      "save_failed": "Không thể lưu cân nặng.",
+      "later": "Để sau",
+      "save_now": "Lưu ngay"
+    },
+    "dialog": {
+      "error_title": "Lỗi",
+      "success_title": "Tuyệt vời",
+      "ok_understood": "Đã hiểu"
+    }
+  },
+  "stats": {
+    "header": {
+      "statistics": "Thống kê",
+      "live": "Trực tiếp"
+    },
+    "period": {
+      "week": "Tuần",
+      "month": "Tháng"
+    },
+    "comparison": {
+      "title_weekly": "So sánh theo tuần",
+      "title_monthly": "So sánh theo tháng",
+      "subtitle": "So sánh với kỳ trước",
+      "vs_last": "So với {{period}} trước",
+      "metric": "Chỉ số",
+      "this_period": "Kỳ này ({{period}})",
+      "prev_period": "Kỳ trước ({{period}})",
+      "change": "Thay đổi"
+    },
+    "forecast": {
+      "title": "Dự báo cân nặng",
+      "subtitle_next_days": "Dự báo lộ trình {{days}} ngày tới",
+      "insight_reaches": "Dự kiến đạt {{weight}} kg vào {{date}}"
+    },
+    "legend": {
+      "actual": "Thực tế",
+      "ai_forecast": "Dự báo AI",
+      "target": "Mục tiêu"
+    },
+    "calories": {
+      "title": "Năng lượng nạp vào",
+      "subtitle": "Năng lượng nạp vào {{days}} ngày qua",
+      "avg_per_day": "Trung bình/ngày"
+    },
+    "activity_vs_intake": {
+      "title": "Hoạt động vs. Nạp",
+      "subtitle": "Sự cân bằng giữa ăn uống và tập luyện",
+      "intake_100": "Nạp (100%)",
+      "burned_ratio": "Đốt cháy ({{ratio}}%)"
+    },
+    "nutrition": {
+      "title": "Phân tích dinh dưỡng",
+      "subtitle": "Tỷ lệ các chất dinh dưỡng"
+    },
+    "macros": {
+      "carbs": "Carbs",
+      "protein": "Protein",
+      "fat": "Chất béo"
+    },
+    "meal_timing": {
+      "title": "Thời điểm ăn",
+      "subtitle": "Phân bổ năng lượng theo bữa ăn",
+      "kcal_per_day": "kcal/ngày"
+    }
+  }
+  ,
+  "exerciseDetail": {
+    "exercise_default_name": "Bài Tập",
+    "start_workout": "BẮT ĐẦU BÀI TẬP",
+    "badge": {
+      "strength_training": "TẬP SỨC MẠNH"
+    },
+    "stats": {
+      "volume_label": "VOLUME",
+      "sets_footer": "Sets",
+      "energy_label": "NĂNG LƯỢNG",
+      "duration_label": "THỜI GIAN TẬP",
+      "global_rank": "XẾP HẠNG TOÀN CẦU"
+    },
+    "units": {
+      "kcal": "Kcal",
+      "minutes": "Phút",
+      "reps": "Lần"
+    },
+    "sections": {
+      "master_the_form": "Làm chủ động tác",
+      "primary_muscle_targets": "NHÓM CƠ CHÍNH",
+      "step_by_step": "Hướng dẫn từng bước"
+    },
+    "steps": {
+      "step_heading": "Bước {{step}}"
+    },
+    "leaderboard": {
+      "title": "Bảng Xếp Hạng",
+      "global_rank": "XẾP HẠNG TOÀN CẦU",
+      "you_today": "Bạn (Hôm nay)",
+      "current_global_sub": "#{{rank}} Toàn cầu",
+      "points": "Điểm",
+      "user_placeholder": "Người dùng {{index}}",
+      "rank_sub": "Hạng {{rank}}",
+      "view_all": "Xem toàn bộ bảng xếp hạng"
+    },
+    "pro_tip": {
+      "title": "Pro Tip",
+      "default_desc": "Hãy tập trung vào việc hít thở đều đặn và siết chặt cơ bắp trong suốt quá trình tập để đạt hiệu quả cao nhất."
+    },
+    "footer": {
+      "start_button": "Bắt đầu luyện tập",
+      "start_button_sub": "AI Pose Tracking • Sẵn sàng"
+    },
+    "modal": {
+      "ready_title": "Sẵn sàng luyện tập!",
+      "sets_label": "Sets",
+      "sets_hint_max": "tối đa 10",
+      "reps_per_set_label": "Reps / Set",
+      "reps_hint_max": "tối đa 50",
+      "total_volume_label": "Tổng khối lượng"
+    },
+    "errors": {
+      "title": "Lỗi",
+      "invalid_video": "Video không hợp lệ."
+    }
+  },
+  "schedule": {
+    "ai": "AI",
+    "generate_button": "TẠO LỊCH TẬP AI",
+    "units": {
+      "sets": "Sets",
+      "reps": "Reps",
+      "kcal": "kcal"
+    },
+    "goals": {
+      "lose_weight": {
+        "label": "Giảm mỡ",
+        "desc": "Đốt calo cực đại"
+      },
+      "gain_weight": {
+        "label": "Tăng cơ",
+        "desc": "Xây dựng sức mạnh"
+      },
+      "maintain_weight": {
+        "label": "Duy trì",
+        "desc": "Giữ dáng, khỏe mạnh"
+      }
+    },
+    "days": {
+      "1": "T2",
+      "2": "T3",
+      "3": "T4",
+      "4": "T5",
+      "5": "T6",
+      "6": "T7",
+      "7": "CN"
+    },
+    "times": {
+      "15": {
+        "label": "15 Phút",
+        "sub": "Rất bận"
+      },
+      "30": {
+        "label": "30 Phút",
+        "sub": "Vừa phải"
+      },
+      "45": {
+        "label": "45 Phút",
+        "sub": "Rảnh rỗi"
+      }
+    },
+    "survey": {
+      "header": {
+        "title": "AI Huấn Luyện Viên Cá Nhân",
+        "subtitle": "Thiết lập kế hoạch tuần này"
+      },
+      "question": {
+        "goal_weekly": "Mục tiêu tuần này?",
+        "available_days": "Bạn rảnh vào ngày nào?",
+        "time_budget": "Quỹ thời gian mỗi buổi?"
+      },
+      "days_selected": "{{count}} ngày đã chọn"
+    },
+    "plan_header": {
+      "title": "Kế Hoạch Tuần",
+      "subtitle": "{{count}} ngày tập luyện"
+    },
+    "loading": "Đang tải lịch tập...",
+    "calendar": {
+      "today": "Hôm nay"
+    },
+    "list": {
+      "today_workout": "Bài tập hôm nay",
+      "workout_on": "Ngày {{date}}",
+      "past_warning": "* Lịch tập đã qua",
+      "completed_suffix": " hoàn thành",
+      "empty_title": "Chưa có bài tập",
+      "empty_sub": "Nhấn + để thêm bài mới"
+    },
+    "modal": {
+      "title_edit": "Tùy chỉnh bài tập",
+      "title_add": "Thêm bài tập mới",
+      "exercise_picker_label": "Chọn bài tập muốn thêm:",
+      "loading_exercises": "Đang tải...",
+      "date_label": "Ngày tập",
+      "time_label": "Giờ hẹn",
+      "sets_stepper_label": "Số Hiệp (Sets)",
+      "reps_stepper_label": "Số Lần (Reps)",
+      "save_edit": "LƯU & NHẮC NHỞ 🔔",
+      "save_add": "THÊM VÀO LỊCH ✓"
+    },
+    "alerts": {
+      "title_warning": "Thông báo",
+      "select_at_least_one_day": "Vui lòng chọn ít nhất 1 ngày rảnh!",
+      "title_success": "Thành công",
+      "plan_generated_success": "AI đã thiết kế xong lịch tập!",
+      "title_error": "Lỗi",
+      "plan_generated_failed": "Không thể tạo lịch tập lúc này.",
+      "select_exercise_message": "Vui lòng chọn một bài tập.",
+      "save_failed_message": "Không thể lưu thay đổi."
+    }
+  },
+  "nutritionScreen": {
+    "header": {
+      "title": "Dinh Dưỡng"
+    },
+    "report": {
+      "title": "Hôm Nay Ăn Gì?",
+      "goal_badge": "Mục tiêu: {{kcal}} kcal",
+      "kcal_unit": "đã nạp"
+    },
+    "macros": {
+      "protein": "Protein",
+      "carbs": "Carbs",
+      "fat": "Fat"
+    },
+    "meals": {
+      "title": "Thực đơn AI gợi ý",
+      "subtitle": "Tối ưu theo mục tiêu của bạn",
+      "count_meals": "{{count}} bữa"
+    },
+    "meal_types": {
+      "breakfast": "Bữa Sáng",
+      "lunch": "Bữa Trưa",
+      "dinner": "Bữa Tối"
+    },
+    "meal_actions": {
+      "swap": "Đổi món",
+      "logged": "Đã xác nhận hoàn thành",
+      "log": "Xác nhận ăn món này"
+    },
+    "loading": {
+      "overlay_action": "Đang xử lý..."
+    },
+    "alerts": {
+      "info_title": "Thông báo",
+      "error_title": "Lỗi",
+      "update_now": "Cập nhật ngay",
+      "later": "Để sau",
+      "fetch_failed": "Không thể kết nối máy chủ để lấy thực đơn.",
+      "meal_already_logged": "Bữa ăn này đã được ghi nhận, không thể đổi món.",
+      "swap_failed": "Không tìm thấy món thay thế phù hợp lúc này.",
+      "log_failed": "Không thể lưu nhật ký bữa ăn. Vui lòng thử lại."
+    }
+  },
+  "leaderboardScreen": {
+    "exercise_default_name": "SQUAT CƠ BẢN",
+    "loading": "Đang đồng bộ dữ liệu...",
+    "header": {
+      "subtitle": "BẢNG XẾP HẠNG"
+    },
+    "empty": {
+      "list": "Chưa có ai tham gia bảng xếp hạng này."
+    },
+    "units": {
+      "pts": "PTS",
+      "reps": "reps",
+      "kcal": "kcal"
+    },
+    "profile": {
+      "default_name": "Bạn",
+      "loading": "Đang lấy thông tin hồ sơ...",
+      "level_prefix": "Lv.",
+      "xp": "XP",
+      "badges_title": "Huy Hiệu ({{count}})",
+      "badges_empty": "Chưa thu thập huy hiệu nào.",
+      "awards_title": "Cúp Thử Thách ({{count}})",
+      "completed_prefix": "Hoàn thành:",
+      "awards_empty": "Chưa hoàn thành thử thách nào."
+    },
+    "footer": {
+      "rank_label": "HẠNG",
+      "rank_na": "N/A",
+      "message": "Tập thêm để leo hạng!",
+      "pts": "PTS"
+    }
+  },
+  "coachScreen": {
+    "header": {
+      "title": "Healix AI Coach",
+      "online_status": "Luôn sẵn sàng hỗ trợ"
+    },
+    "typing": "Coach đang gõ...",
+    "input": {
+      "placeholder": "Hỏi Coach bài tập, calo..."
+    },
+    "suggestions": {
+      "workout_today": "🏋️‍♂️ Hôm nay tôi nên tập gì?",
+      "low_calo_dinner": "🥗 Gợi ý bữa tối ít Calo",
+      "water_intake": "💧 Tôi cần uống bao nhiêu nước?",
+      "muscle_analysis": "🔥 Phân tích cơ bắp của tôi",
+      "soreness": "😴 Tôi đang bị đau nhức cơ"
+    },
+    "welcome": {
+      "text": "Xin chào! 👋 Mình là **Healix Coach** - Trợ lý sức khỏe cá nhân của bạn.\\n\\nMình đã phân tích xong dữ liệu cơ thể của bạn. Bạn muốn mình tư vấn về Lịch tập, Dinh dưỡng hay giải đáp thắc mắc gì hôm nay?"
+    },
+    "errors": {
+      "connection_interrupted": "Xin lỗi, đường truyền tín hiệu của Coach đang bị gián đoạn. Bạn nói lại nhé 😅"
+    }
+  },
+  "challenges": {
+    "header": {
+      "title": "SỰ KIỆN & THỬ THÁCH"
+    },
+    "tabs": {
+      "joined": "THAM GIA",
+      "new_events": "SỰ KIỆN MỚI",
+      "history": "LỊCH SỬ"
+    },
+    "loading": "Đang tải dữ liệu...",
+    "empty": {
+      "joined": "Bạn chưa tham gia thử thách nào.",
+      "new_events": "Hiện chưa có sự kiện mới nào.",
+      "history": "Chưa có lịch sử sự kiện nào."
+    },
+    "cards": {
+      "days_left": "Còn {{count}} ngày",
+      "claim_now": "NHẬN THƯỞNG NGAY",
+      "reward_label": "Phần thưởng:",
+      "participants": "{{count}} tham gia",
+      "join": "THAM GIA"
+    },
+    "history": {
+      "success": "THÀNH CÔNG",
+      "expired": "HẾT HẠN"
+    },
+    "units": {
+      "xp": "XP",
+      "reps": "Reps",
+      "seconds": "Giây",
+      "kcal": "Kcal"
+    },
+    "alerts": {
+      "connection_error_title": "Lỗi Kết Nối",
+      "load_failed": "Không thể tải danh sách thử thách. Vui lòng thử lại sau.",
+      "success_title": "Thành công!",
+      "failed_title": "Thất bại",
+      "error_title": "Lỗi",
+      "join_failed": "Có lỗi xảy ra khi tham gia.",
+      "claim_failed": "Không thể nhận thưởng lúc này."
+    },
+    "dialog": {
+      "close": "Đóng"
+    }
+  },
+  "personalData": {
+    "alerts": {
+      "login_title": "Lỗi",
+      "login_message": "Vui lòng đăng nhập lại.",
+      "load_error_title": "Lỗi",
+      "load_error_message": "Không tải được hồ sơ. Vui lòng thử lại.",
+      "missing_name_title": "Thiếu thông tin",
+      "missing_name": "Vui lòng nhập họ và tên.",
+      "missing_email_title": "Thiếu thông tin",
+      "missing_email": "Vui lòng nhập email.",
+      "success_title": "Thành công",
+      "success_message": "Đã lưu hồ sơ.",
+      "save_error_title": "Lỗi",
+      "save_error_fallback": "Không thể lưu hồ sơ. Vui lòng thử lại."
+    },
+    "header_title": "Hồ sơ cá nhân",
+    "save": "Lưu",
+    "loading": "Đang tải hồ sơ...",
+    "info_title": "Dữ liệu bảo mật",
+    "info_text": "Thông tin này giúp Healix tính toán BMI và nhu cầu Calo hàng ngày của bạn một cách chính xác nhất.",
+    "labels": {
+      "full_name": "Họ và tên",
+      "email": "Địa chỉ email",
+      "dob": "Ngày sinh",
+      "gender": "Giới tính"
+    },
+    "dob_placeholder": "Chọn ngày sinh",
+    "gender": {
+      "male": "Nam",
+      "female": "Nữ",
+      "other": "Khác"
+    },
+    "dialog_ok": "Đã hiểu",
+    "date_modal": {
+      "title": "Chọn ngày sinh",
+      "hint": "Chọn ngày bên dưới, sau đó nhấn Xác nhận",
+      "cancel": "Hủy",
+      "confirm": "Xác nhận"
+    }
+  },
+  "profileScreen": {
+    "loading": "Đang tải hồ sơ...",
+    "sticky_title_fallback": "Hồ sơ cá nhân",
+    "user_fallback": "Người dùng",
+    "email_fallback": "Chưa cập nhật email",
+    "bmi": {
+      "label": "BMI",
+      "na": "N/A",
+      "underweight": "Thiếu cân",
+      "normal": "Bình thường",
+      "overweight": "Thừa cân",
+      "obese": "Béo phì"
+    },
+    "stats": {
+      "height": "C.Cao",
+      "weight": "C.Nặng",
+      "current": "Hiện tại",
+      "unit_cm": "cm",
+      "unit_kg": "kg"
+    },
+    "sections": {
+      "account": "Cài đặt tài khoản",
+      "preferences": "Tùy chọn"
+    },
+    "menu": {
+      "badges": "Huy hiệu của tôi",
+      "personal_data": "Dữ liệu cá nhân",
+      "my_goal": "Mục tiêu của tôi",
+      "health_metrics": "Chỉ số sức khỏe",
+      "notifications": "Thông báo",
+      "privacy": "Chính sách bảo mật",
+      "help": "Trung tâm trợ giúp",
+      "sign_out": "Đăng xuất"
+    },
+    "goals": {
+      "lose_weight": "Giảm cân",
+      "gain_weight": "Tăng cân",
+      "stay_healthy": "Duy trì cân nặng",
+      "maintain_weight": "Duy trì cân nặng",
+      "build_muscle": "Tăng cơ",
+      "not_set": "Chưa đặt"
+    },
+    "alerts": {
+      "load_error_title": "Lỗi",
+      "load_error_message": "Không thể tải dữ liệu cá nhân.",
+      "avatar_success_title": "Thành công",
+      "avatar_success_message": "Đã cập nhật ảnh đại diện.",
+      "avatar_upload_error_fallback": "Không thể tải ảnh lên. Vui lòng thử lại.",
+      "avatar_picker_title": "Ảnh đại diện",
+      "avatar_picker_message": "Chọn ảnh từ thư viện để cập nhật.",
+      "cancel": "Hủy",
+      "choose_photo": "Chọn ảnh",
+      "logout_title": "Đăng xuất",
+      "logout_message": "Bạn có chắc chắn muốn đăng xuất không?",
+      "logout_confirm": "Đăng xuất"
+    },
+    "version": "Healix phiên bản 1.0.0 (Beta)"
+  },
+  "editGoal": {
+    "header_title": "Đổi mục tiêu",
+    "title": "Mục tiêu chính của bạn là gì?",
+    "subtitle": "Điều này sẽ cập nhật mục tiêu calo và đa chất dinh dưỡng hàng ngày.",
+    "save": "Lưu thay đổi",
+    "goals": {
+      "lose": {
+        "title": "Giảm cân",
+        "desc": "Đốt mỡ và thon gọn nhờ thiếu hụt calo"
+      },
+      "maintain": {
+        "title": "Duy trì cân nặng",
+        "desc": "Giữ sức khỏe với dinh dưỡng cân bằng"
+      },
+      "gain_muscle": {
+        "title": "Tăng cơ",
+        "desc": "Tăng sức mạnh và khối lượng với protein cao"
+      }
+    }
+  }
+}
